@@ -1,26 +1,18 @@
--- Databricks notebook source
--- MAGIC %md
--- MAGIC https://kaggle.com/datasets/kuchhbhi/latest-laptop-price-list/
--- MAGIC
-
--- COMMAND ----------
-
 -- MAGIC %md
 -- MAGIC Vários fatores diferentes podem afetar os preços dos laptops. Esses fatores incluem a marca do computador e o número de opções e complementos incluídos no pacote do computador. Além disso, a quantidade de memória e a velocidade do processador também podem afetar o preço. Embora menos comum, alguns consumidores gastam dinheiro adicional para comprar um computador com base na “aparência” geral e no design do sistema.
 -- MAGIC
 -- MAGIC Em muitos casos, os computadores de marca são mais caros do que as versões genéricas. Esse aumento de preço geralmente tem mais a ver com o reconhecimento do nome do que com qualquer superioridade real do produto. Uma grande diferença entre sistemas de marca e genéricos é que, na maioria dos casos, os computadores de marca oferecem melhores garantias do que as versões genéricas. Ter a opção de devolver um computador com defeito costuma ser um incentivo suficiente para incentivar muitos consumidores a gastar mais dinheiro.
 -- MAGIC
--- MAGIC A funcionalidade é um fator importante na determinação dos preços dos laptops. Um computador com mais memória geralmente funciona melhor por mais tempo do que um computador com menos memória. Além disso, o espaço no disco rígido também é crucial e o tamanho do disco rígido geralmente afeta o preço. Muitos consumidores também podem procurar drivers de vídeo digital e outros tipos de dispositivos de gravação que podem afetar os preços dos laptops.
+ A funcionalidade é um fator importante na determinação dos preços dos laptops. Um computador com mais memória geralmente funciona melhor por mais tempo do que um computador com menos memória. Além disso, o espaço no disco rígido também é crucial e o tamanho do disco rígido geralmente afeta o preço. Muitos consumidores também podem procurar drivers de vídeo digital e outros tipos de dispositivos de gravação que podem afetar os preços dos laptops.
 -- MAGIC
 
 -- COMMAND ----------
 
 -- MAGIC %md
 -- MAGIC Como obtivemos esses dados (essa tabela foi obtida por meio da plataforma Kaggle: https://www.kaggle.com/datasets/kuchhbhi/latest-laptop-price-list/):
--- MAGIC
 -- MAGIC Removi esses dados de flipkart.com. Usou-se uma ferramenta automatizada de extensão da web do Chrome chamada Instant Data Scrapper
 -- MAGIC recomendo fortemente que você use esta bela ferramenta para obter os dados de qualquer lugar na web. é muito fácil de usar, nenhum conhecimento de codificação é necessário.
--- MAGIC
+
 
 -- COMMAND ----------
 
